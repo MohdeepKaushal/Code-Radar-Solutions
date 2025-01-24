@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    char a[10];
-    char b[10];
+    char str1[10];
+    char str2[10];
     char combined[50];
-    scanf("%s%s",a,b);
-    sprintf(combined,"%s and %s",a,b);
+    scanf("%s%s",str1,str2);
+    sprintf(combined,"%s and %s",str1,str2);
     printf("You enterd: %s\n":combined);
     return 0;
 }
